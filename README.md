@@ -4,7 +4,7 @@ Description:
 Simulates nonlinear heat transfer in a 1D rod using Implicit Euler time discretization and Finite Difference Method (FDM) in space. Newton’s method solves the nonlinear system arising from temperature-dependent thermal conductivity. The project visualizes both the temporal evolution and final temperature distribution for multiple nonlinearity parameters (χ).
 
 Features:
-Handles temperature-dependent thermal conductivity k(u) = ko e^χ&^u
+Handles temperature-dependent thermal conductivity k(u) = ko e^χ^u
 Implements Implicit Euler method for stable time stepping
 Uses Newton-Raphson iterations to solve nonlinear systems
 Generates 3D mesh plots of temperature vs. space and time
